@@ -13,7 +13,6 @@ public class DeptController_Consumer {
     // private static final String REST_URL_PREFIX = "http://localhost:8001";
     private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT"; // 通过微服务名称从Eureka上找到并访问
 
-
     /**
      * 使用restTemplate访问restful接口非常的简单粗暴无脑。
      (url, requestMap, ResponseBean.class)这三个参数分别代表

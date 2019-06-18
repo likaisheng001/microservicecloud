@@ -1,0 +1,8 @@
+server:
+  port: 8081 #unfinish:配置80端口，不知道为什么,本地启动的时候，总是包端口占用
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/

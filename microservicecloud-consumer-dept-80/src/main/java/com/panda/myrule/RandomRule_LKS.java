@@ -61,7 +61,6 @@ public class RandomRule_LKS extends AbstractLoadBalancerRule {
                     Thread.yield();
                 }
             }
-
             return server;
         }
     }
