@@ -1,0 +1,15 @@
+未能解决的问题：
+1.microservicecloudproviderdept8001:
+info:
+  app.name: atguigu-microservicecloud
+  company.name: www.atguigu.com
+  build.artifactId: $project.artifactId$   # unfinished 实际配置了，但是却取不出来
+  build.version: $project.version$          # unfinished 实际配置了，但是却取不出来
+
+2.microservicecloudconsumer80：
+server:
+port: 8081 #unfinish:配置80端口，不知道为什么,本地启动的时候，总是包端口占用
+
+3.eureka：eureka-server(服务注册),eureka-client(服务发现)
+4.ribbon的RetryRule机制不生效
+
