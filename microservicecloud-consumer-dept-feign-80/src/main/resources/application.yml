@@ -1,6 +1,10 @@
 server:
   port: 8081 #unfinish:配置80端口，不知道为什么,本地启动的时候，总是包端口占用
 
+feign:
+  hystrix:
+    enabled: true
+
 eureka:
   client:
     register-with-eureka: false

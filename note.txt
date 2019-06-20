@@ -13,3 +13,10 @@ port: 8081 #unfinish:配置80端口，不知道为什么,本地启动的时候�
 3.eureka：eureka-server(服务注册),eureka-client(服务发现)
 4.ribbon的RetryRule机制不生效
 
+注意：eureka一旦设置成了集群模式，如果只有一台eureka server可用，其eureka client的启动就容易出问题
+
+java.lang.IllegalStateException:
+Failed to load property source from location
+'file:/C:/Users/ADMINI~1/AppData/Local/Temp/config-repo-4475814055912507883/microservicecloud-config-eureka-client.yml'
+
+search-ms:displayname=“Temp”中的搜索结果&crumb=location:C%3A%5CUsers%5CAdministrator%5CAppData%5CLocal%5CTemp\config-repo-4063145014288166608
